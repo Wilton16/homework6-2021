@@ -91,22 +91,36 @@ header{
 /*Requirement 9*/
 #logo{
    /*Your code here.*/
-   animation-name: /*not sure which one I use- check autograder*/
+   animation-name: logo-grow;
    animation-duration:15s; 
    animation-iteration-count: 1; /*no repeat*/
    
 }
 
 /*Keyframes for animation*/
-@-webkit-keyframes logo_grow{
+@-webkit-keyframes logo_grow{ /*wait I use this for 9? <--"webkit" allows for Chrome so this and "keyframes" should be same"*/
   /*Your code here.*/
-
+  from{
+    width: 25px;
+    opacity: 0;
+  }
+  to{
+    width: 420px;
+    opacity: 1;
+  }
 }
 
 @keyframes logo_grow{
   /*Your code here.*/
-
-} 
+  from{
+    width: 25px;
+    opacity: 0;
+  }
+  to{
+    width: 420px;
+    opacity: 1;
+  }
+} /*Still not working- check autograder*/
 
 @media screen and (min-width: 850px){
 
