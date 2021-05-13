@@ -120,30 +120,44 @@ header{
     width: 420px;
     opacity: 1;
   }
-} /*Still not working- check autograder*/
+} /*Still not working- check autograder- AUTOGRADER NOT WORKING*/
 
 @media screen and (min-width: 850px){
 
   /*Requirement 10*/
   header{
-    /*Your code here again.*/  
+    /*Your code here again.*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 
   /*Requirement 10*/
   .nav_links{
-    /*Your code here again.*/  
+    /*Your code here again.*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   /*Requirement 11*/
   .package {
     /*Your code here again.*/
+    display: flex;
+    flex-direction: column;
+    flex-basis: 230px;
   } 
 }
 
 /*Requirement 12*/
 /*Add media query to handle reduced-motion*/
 /*Your code here again.*/ 
-
+@media (prefers-reduced-motion: reduce){
+  #logo{
+    animation: none;
+  }
+}
 
 
 @media print { 
