@@ -91,20 +91,20 @@ header{
 /*Requirement 9*/
 #logo{
    /*Your code here.*/
-   animation-name: logo-grow;
-   animation-duration:15s; 
-   animation-iteration-count: 1; /*no repeat*/
+  animation-name: logo-grow;
+  animation-duration: 15s; 
+  animation-iteration-count: 1; /*no repeat*/
    
 }
 
 /*Keyframes for animation*/
 @-webkit-keyframes logo_grow{ /*wait I use this for 9? <--"webkit" allows for Chrome so this and "keyframes" should be same"*/
   /*Your code here.*/
-  from{
+  from {
     width: 25px;
     opacity: 0;
   }
-  to{
+  to {
     width: 420px;
     opacity: 1;
   }
@@ -112,11 +112,11 @@ header{
 
 @keyframes logo_grow{
   /*Your code here.*/
-  from{
+  from {
     width: 25px;
     opacity: 0;
   }
-  to{
+  to {
     width: 420px;
     opacity: 1;
   }
@@ -188,6 +188,8 @@ header{
   }
   
   /*Requirement 18*/
- 
+ #gallery, .gallery{ 
+   display: none;
+ }
 }
 
